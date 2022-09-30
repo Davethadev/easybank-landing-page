@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.header-image {
+    /* width: 28.5rem; */
+    width: 100%;
+    position: relative;
+    right: -240px;
+    top: -80px;
+    z-index: 1;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+.logo-top-nav-wrapper {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.logo-top-nav-wrapper-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: #ccc;
+    margin-left: 1rem;
+}
+
+.header .bg-image-header {
+    width: 60rem;
+    position: absolute;
+    right: -25%;
+    top: -25%;
+    z-index: 1;
+}
+
+.header .bg-image-header img {
+    width: 100%;
+}
+
+.bg-image-header-mobile {
+    display: none;
+}
+
+#icon-hamburger {
+    display: none;
+}
+
+.nav-links-mobile {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+    /* display: block; */
+
+}
+
+.btn {
+    display: block;
+    border: none;
+    padding: 0.5rem 1.65rem;
+    background: linear-gradient(
+        to right,
+        hsl(136, 65%, 51%),
+        hsl(192, 70%, 51%)
+    );
+    border-radius: 25px;
+    color: #fff;
+}
+
+.main-header-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+}
+
+.main-header-content .header-text {
+    padding-top: 6.5rem;
+}
+
+.header-text h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    width: 80%;
+}
+
+.header-text p {
+    width: 72.5%;
+    padding: 1rem 0;
+    color: hsl(233, 8%, 62%);
+}
+
+/* .main-header-content .btn {
+    width: 32.5%;
+    text-align: center;
+}  */
+
+.first-section {
+    background-color: hsl(220, 16%, 96%);
+    position: relative;
+    /* top: -100px; */
+}
+
+.first-section-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4.5rem 0 3.5rem;
+}
+
+.first-section-header-text h2 {
+    font-weight: 400;
+}
+
+.first-section-header-text p {
+    font-weight: 300;
+    line-height: 1.4;
+    width: 50%;
+    padding: 1.2rem 0 3rem;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits .benefit {
+    width: 23.5%;
+    line-height: 1.4;
+}
+
+.benefit h3 {
+    font-weight: 400;
+    padding: 1.2rem 0 1.8rem;
+}
+
+.benefit p {
+    font-weight: 300;
+}
+
+.second-section {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.second-section-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4.5rem 0 3.5rem;
+}
+
+.second-section-content h2 {
+    font-weight: 400;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.articles .article {
+    width: 22.5%;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.article h4 {
+    width: 80%;
+    padding: 0.55rem 0;
+    font-weight: 400;
+}
+
+.article .text {
+    padding: 1rem;
+}
+
+.article .text p:first-of-type {
+    padding-top: 0.75rem;
+    font-size: 0.6rem;
+    color: hsl(233, 8%, 62%);
+}
+
+.article .text p:nth-of-type(2) {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    font-weight: 300;
+    color: hsl(233, 8%, 62%);
+}
+
+.bg-image-currency {
+    background: url('./images/image-currency.jpg') no-repeat center center /cover;
+}
+
+.bg-image-restaurant {
+    background: url('./images/image-restaurant.jpg') no-repeat center center /cover;
+}
+
+.bg-image-plane {
+    background: url('./images/image-plane.jpg') no-repeat center center /cover;
+}
+
+.bg-image-confetti {
+    background: url('./images/image-confetti.jpg') no-repeat center center /cover;
+}
+
+.bg-image-currency,
+.bg-image-restaurant,
+.bg-image-plane,
+.bg-image-confetti {
+    width: 100%;
+    height: 12rem;
+}
+
+.bg-image-currency img,
+.bg-image-restaurant img,
+.bg-image-plane img,
+.bg-image-confetti img {
+    width: 100%;
+}
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+.footer-content .contact {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .copyright {
+    padding-top: 2rem;
+    color: hsl(233, 8%, 62%);
+    font-size: 0.6rem;
+}
+
+.footer-content a {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+    color: hsl(220, 16%, 96%);
+    font-weight: 400;
+}
+
+.social-media-icons {
+    display: flex;
+    padding-top: 2rem;
+    gap: 0.75rem;
+}
+
+@media(max-width: 760px) {
+    .header {
+        position: relative;
+        padding-bottom: 5.5rem;
+    }
+
+    .header.active {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .main-header-content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-header-content {
+        text-align: center;   
+        position: relative;
+        height: 575px;
+    }
+
+    .main-header-content .header-text {
+        position: absolute;
+        top: 250px;
+    }
+
+    .header-text h1 {
+        width: 100%;
+    }
+
+    .header-text p {
+        width: 100%;
+    }
+
+    .main-header-content .header-text button {
+        margin: 0 auto;
+    }
+
+    .header .bg-image-header {
+        display: none;
+    }
+
+    .bg-image-header-mobile {
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .bg-image-header-mobile img {
+        width: 100%;
+    }
+
+    .header-image {
+        width: 100%;
+        right: 0;
+        left: 0;
+        top: -140px;
+        order: 1;
+        position: relative;
+        z-index: 1;
+    }
+
+    .header-image img {
+        width: 100%;
+    }
+
+    .logo-top-nav-wrapper-content {
+        width: 100%;
+    }
+
+    #icon-hamburger {
+        display: block;
+    }
+
+    #icon-hamburger.active {
+        display: block;
+    }
+
+    .nav-links-mobile {
+        display: block;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+        opacity: 0;
+        pointer-events: none;
+        background-color: hsl(0, 0%, 100%);
+        padding: 1.2rem 0 2rem;
+        border-radius: 5px;
+        margin: 1.2rem auto 0;
+        width: 90%;
+        z-index: 2;
+
+        transform: translateY(-10px);
+        transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    }
+
+    .nav-links-mobile a {
+        display: block;
+        color: black;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .nav-links-mobile.active {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    /* .header-text {
+        margin-top: 5.5rem;
+    } */
+    
+    .header-text {
+        order: 2;
+    }
+
+    .header-text p {
+        width: 85%;
+        margin: 0 auto;
+        line-height: 1.45;
+    }
+
+    .first-section-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-section-header-text h2 {
+        font-size: 2rem;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .first-section-header-text p {
+        width: 85%;
+        margin: 0 auto;
+        line-height: 1.45;
+    }
+
+    .benefits {
+        flex-direction: column;
+        /* width: 100%; */
+    }
+
+    .benefits .benefit {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .benefits .benefit p {
+        width: 85%;
+        margin: 0 auto;
+        line-height: 1.45;
+    }
+
+    .second-section-content {
+        width: 100%;
+        padding: 4.5rem 1.5rem 3.5rem;
+    }
+
+    .second-section-content h2 {
+        text-align: center;
+    }
+
+    .articles .article {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .article .text {
+        padding: 1rem 1.5rem;
+    }
+    
+    .article h4 {
+        width: 95%;
+    }
+
+    .articles {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 2.5rem;
+    }
+
+    .footer-content .logo {
+        margin: 0 auto;
+    }
+
+    .footer-content .contact {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-content .social-media-icons {
+        justify-content: center;
+        padding-bottom: 1.5rem;
+    }
+
+    .footer-content button {
+        margin: 1.2rem auto 0;
+    }
+}
+
